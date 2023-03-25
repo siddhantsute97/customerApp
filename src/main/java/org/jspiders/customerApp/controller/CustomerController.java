@@ -62,9 +62,4 @@ public class CustomerController {
         model.addAttribute("customer2",cosList);
         return "customername";
     }
-    public String getTotalPurchase(double amt,Model model){
-        List<Customer>customerByAmt=service.getCustomerByAmt(amt);
-        model.addAttribute("customer2",customerByAmt);
-        return "customername";
-    }
 }
