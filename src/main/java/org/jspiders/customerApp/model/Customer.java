@@ -5,12 +5,11 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import javax.annotation.security.DenyAll;
 import javax.persistence.*;
 
 @AllArgsConstructor
 @NoArgsConstructor
-@Setter@Getter
+@Setter @Getter
 @Entity
 @Table(name = "customer_sales")
 public class Customer {
